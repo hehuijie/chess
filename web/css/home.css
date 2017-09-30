@@ -1,0 +1,77 @@
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*首页轮播*/
+.banner-inner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.banner-inner ul{
+    width: 9999px;
+}
+.banner-inner ul li{
+	display: inline-block;
+	float: left;
+}
+.banner-inner ul li img{
+	width: 100%;
+}
+.know{
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+/*轮播图上的横线*/
+.banner-num{
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+.num-line{
+    display: inline-block;
+    width: 49px;
+    height: 0px;
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-right: 10px;
+}
+.num-active{
+    border-bottom: 2px solid #dcdcdc;
+}
+.carousel-indicators li{
+    display: inline-block;
+    width: 49px;
+    height: 0px;
+    border-bottom: 2px solid #FFFFFF;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-right: 10px;
+}
+.carousel-indicators .active{
+    width: 49px;
+    height: 0px;
+    border-bottom: 2px solid #dcdcdc;
+}
+/*产品banner*/
+.product-show{
+	width: 100%;
+}
+.product-show ul li{
+	display: inline-block;
+	width: calc(100%/4);
+	width: -webkit-calc(100%/4);
+	float: left;
+}
+.product-show ul li a{
+    display: inline-block;
+    width: 100%;
+}
+.product-show ul li a img{
+	width:100%
+}

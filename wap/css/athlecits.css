@@ -1,0 +1,185 @@
+.athlecits-game-intro{
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 3px 0px #ddd;
+}
+.software-down{
+	width: 100%;
+}
+.software-down>div{
+	display: inline-block;
+	width: calc(100%/2);
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 30px;
+	float: left;
+}
+.gameIcon img{
+	width: 100%;
+}
+.software-msg{
+	/*position: relative;
+	top: 35px;*/
+}
+.software-msg h2{
+    margin: 0px;
+    text-align: left;
+}
+.software-msg p{
+    font-size: 14px;
+    margin: 0px;
+    text-align: left;
+    margin: 5px 0;
+}
+.software-msg p i{
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.software-msg p i.icon-fenxiang{
+	display: inline-block;
+	margin-left: 10px;
+}
+.software-dec{
+	clear: both;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px
+}
+.software-dec p{
+    color: #434343;
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.software-dec p:first-child{
+    font-size: 18px;
+    border-bottom: 1px solid #E9E9E9;
+}
+.game-downLoad,.game-downLoad>div{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 8px;
+}
+.downLoad-category-name{
+	width: 100%;
+	text-indent: 12px;
+	font-size: 16px;
+    color: #434343;
+    border-bottom: 1px solid #E9E9E9;
+}
+.lineBorder{
+    display: inline-block;
+    width: 0px;
+    height: 65px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 2px solid #ddd;
+    position: relative;
+    bottom: 12px;
+    margin-right: 15px;
+}
+.downLoad-icon{
+	text-align: center;
+	/*width: 60%;*/
+}
+.downLoad-icon img{
+    width: 30%;
+    border: 1px solid #e9e9e9;
+    position: relative;
+    bottom: 35px;
+}
+.downLoad-icon-pc{
+    width:67px;height:61px;background-position:-97px -125px;
+    margin: 20px;
+}
+.click-download{
+    width:162px;height:50px;background-position:-8px -7px;
+    position: relative;
+    bottom: 27px;
+    cursor: pointer;
+}
+.hoverBut{
+    width:162px;height:50px;background-position:-8px -63px;
+}
+.downLoad-icon-ios{
+    width:65px;height:72px;background-position:-5px -197px;
+    margin: 15px;
+}
+.downLoad-icon-andriod{
+   width:68px;height:74px;background-position:-95px -197px; 
+   margin: 15px;
+}
+
+/*游戏公告*/
+.game-notice{
+	width: 100%;
+	/*background: #FFFFFF;*/
+	margin-top: 15px;
+}
+.game-notice>div{
+	width: 100%;
+	background: #f9f9f9;
+    border: 2px solid #ebebeb;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+}
+.game-notice-name{
+    height: 46px;
+    line-height: 46px;
+    margin: 0px 10px;
+    border-bottom: 1px solid #ebebeb;
+    color: #434343;
+    font-size: 18px;
+}
+.game-notice-name i{
+    display: inline-block;
+    font-size: 22px;
+    color: #BFBFBF;
+    margin-right: 5px;
+    cursor: pointer;
+}
+i.icon-gonggao2{
+   font-size: 24px; 
+}
+.game-notice-list{
+    padding: 10px 15px;
+}
+.game-notice-list ul{
+	margin: 0;
+	padding: 0;
+}
+.game-notice-list ul li{
+	list-style: none;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.game-notice-name span i{
+    color: #434343;
+}
+span.fr{
+    display: inline-block;
+    float: right;
+}
+
+.always-question{
+	width: 100%;
+	background: #FFFFFF;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 2px 3px 0px #ddd;
+}
+.game-rule{
+	width: 100%;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 2px 3px 0px #ddd;
+}

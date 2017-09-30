@@ -1,0 +1,49 @@
+.wap-information{
+    width: 100%;
+}
+.paging-banner{
+	width: 100%;
+}
+.paging-banner img{
+    width: 100%;
+}
+.inform-headings{
+	width: 100%;
+	background: #F2F2F2;
+	position: relative;
+}
+.inform-headings-list{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inform-headings-list>div{
+	display: inline-block;
+    width: calc(100%/4 - 5px);
+    /*float: left;*/
+    text-align: center;
+}
+.inform-headings-list>div span{
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	color: #434343;
+}
+.inform-headings-list>div i{
+	font-size: 36px;
+	color: #bfbfbf;
+}
+
+.inform-headings-list>div.active span,.inform-headings-list>div.active i{
+    color: #A40000;
+}
+.inform-cont{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #FFFFFF;
+}
+.inform-cont-list{
+	width: 100%;
+	background: #FFFFFF;
+}

@@ -1,0 +1,38 @@
+.com-activity{
+    width: 100%;
+    background: #FFFFFF;
+    margin-top: -4px;
+    padding-top: 30px;
+}
+
+.activity-list{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.activity>p span{
+	font-size: 14px;
+	color: #434343;
+	font-weight: 600;
+}
+span.activity-time{
+	margin-right: 20px;
+}
+.activity-cont{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    position: relative;
+    top: -30px;
+    display: none;
+}
+.activity-cont p{
+	color: #535353;
+	font-size: 14px;
+}
+.activity-cont a{
+	font-size: 12px;
+	color: #0070c9;
+}
+.activity-cont a:hover{
+	text-decoration: underline;
+}

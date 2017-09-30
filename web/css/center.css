@@ -1,0 +1,100 @@
+.service-center{
+	width: 100%;
+	background: #F2F2F2;
+	margin-top: -4px;
+}
+.service-center-msg{
+	max-width: 980px;
+	/*height: 720px;*/
+	margin: 0 auto;
+}
+.service-module{
+    position: relative;
+    background: #F2F2F2;
+}
+.service-center-menu,.service-center-cont{
+	background: #FFFFFF;
+	display: inline-block;
+	padding-top: 20px;
+	float: left;
+	height: 720px;
+	overflow-y: auto;
+}
+.service-center-menu::-webkit-scrollbar,
+.service-center-cont::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: #ECECEC;
+}
+.service-center-menu::-webkit-scrollbar-track,
+.service-center-cont::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background-color: #ECECEC;
+}
+.service-center-menu::-webkit-scrollbar-thumb,
+.service-center-cont::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    background-color: #ECECEC;
+}
+
+.service-center-menu{
+	width: 227px;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.service-center-menu>ul>li{
+	border-bottom: 1px solid #D9D9D9;
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+.service-center-menu>ul>li:last-child{
+	border-bottom: 0px;
+}
+.service-center-menu>ul>li>p{
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: #434343;
+	margin-top: 10px;
+	margin-bottom: 6px;
+}
+.service-center-menu>ul>li>p.active{
+    color: #A40000;
+}
+.menu-list li{
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.service-center-cont{
+	width: calc(100% - 300px);
+	position: relative;
+	left: 20px;
+}
+
+.service-center-cont>div{
+    color: #434343;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-top: 15px;
+}
+.service-center-cont div p{
+    height: 24px;
+    line-height: 24px;
+}
+.service-center-cont>div p.categry-title{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+/*.service-center-cont>div ul li>p{
+    height: 36px;
+    line-height: 36px;
+}*/
+.categry-msg{
+    position: relative;
+    top: 40px;
+}

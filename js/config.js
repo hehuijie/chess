@@ -1,0 +1,10 @@
+var IS_DEBUG = false;
+var HIDDEN_ERROR = false;
+var IE = (document.all) ? 1 : 0;
+var NS = (document.layers) ? 1 : 0;
+var STATIC_DOMAIN = "http://static.bwbbw.com";
+var WWW_DOMAIN = "http://www.bwbbw.com";
+var MEMBER_DOMAIN = "http://member.bwbbw.com";
+var PAY_DOMAIN = "http://pay.bwbbw.com";
+var JS_DOMAIN = "bwbbw.com";
+document.domain = JS_DOMAIN;

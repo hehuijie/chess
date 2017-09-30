@@ -1,0 +1,47 @@
+.vipBanner{
+    width: 100%;
+}
+.vipBanner img{
+    width: 100%;
+}
+.special-title{
+    width:97px;height:117px;background-position:-198px -4px;
+}
+.give-reward{
+    width:97px;height:125px;background-position:-312px -5px;
+}
+.vip-notice{
+    width:97px;height:125px;background-position:-419px -6px;
+}
+.vip-shop{
+    width:97px;height:125px;background-position:-530px -3px;
+}
+.wap-vip-privilege{
+    width: 100%;
+}
+.vip-privilege>div{
+    display: inline-block;
+    width: calc(100%/2 - 10px);
+    text-align: center;
+}
+.privilege-cagetory{
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.privilege-cagetory>div{
+   display: inline-block;
+   width: calc(100%/3 - 15px);
+   margin: 5px;
+   text-align: center;
+}
+.privilege-cagetory span.vip-icon{
+    display:block;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    margin-bottom: 6px;
+}
+.vip-icon i{
+    color: #cfa972;
+    font-size: 50px;
+}

@@ -1,0 +1,23 @@
+.inform-headings{
+	width: 100%;
+	background: #F2F2F2;
+	height: 190px;
+	position: relative;
+	margin-top: -4px;
+}
+
+
+/*资讯内容  --- 要切换元素的最高级元素*/
+.inform-cont{
+	width: 100%;
+	background: #FFFFFF;
+	/*padding-bottom: 20px;*/
+}
+.inform-cont-list{
+	max-width: 980px;
+	margin: 0 auto;
+	height: auto;
+	background: #FFFFFF;
+	position: relative;
+}
+

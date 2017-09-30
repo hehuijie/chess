@@ -1,0 +1,43 @@
+.wap-service{
+	width: 100%;
+}
+.center-banner{
+	width: 100%;
+}
+.center-banner img{
+	width: 100%;
+}
+.service-center-cont{
+	width: 100%;
+	background: #FFFFFF;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+.service-center-cont ul{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.service-center-cont ul li{
+	list-style: none;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+p.categry-title{
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.categry-msg ul li{
+	margin-bottom: 20px;
+}
+.categry-msg ul li p{
+	margin: 0;
+}
+.categry-msg ul li p:first-child{
+	font-size: 16px;
+	color: #333333;
+	margin-bottom: 3px;
+}

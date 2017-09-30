@@ -1,0 +1,60 @@
+.vip-privilege{
+    width: 100%;
+    background: #F2F2F2;
+    margin-top: -4px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    border: 1px solid #DCDCDC;
+}
+.vip-privilege-title,.vip-privilege-list{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.vip-privilege-title p{
+    text-align: center;
+    color: #434343;
+    font-size: 26px;
+}
+.privilege-list01,.privilege-list02{
+    text-align: center;
+    margin-top: 30px;
+}
+.privilege-list01>div{
+    width: calc(100%/4 - 10px);
+}
+/*特制头衔*/
+.special-title{
+    width:96px;height:116px;background-position:-198px -6px;
+}
+.give-reward{
+    width:96px;height:123px;background-position:-313px -6px;
+}
+.vip-notice{
+    width:96px;height:123px;background-position:-422px -7px;
+}
+.vip-shop{
+    width:96px;height:123px;background-position:-531px -5px;
+}
+.privilege-list02>div{
+    width: calc(100%/6 - 10px);
+    text-align: center;
+    margin: 0 auto;
+}
+.vip-icon{
+    display: block;
+    width:104px;
+    height: 104px;
+    line-height: 104px;
+    background: rgba(255,255,255,0.4);
+    position: relative;
+    left: 26px;
+    margin-bottom: 10px;
+}
+.vip-icon i{
+    color: #cfa972;
+    font-size: 50px;
+}
+.privilege-list02>div span{
+    color: #434343;
+    font-size: 18px;
+}
